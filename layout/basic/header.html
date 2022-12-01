@@ -1,0 +1,31 @@
+            <header id="header">
+                <div class="header">
+                    <section id="topArea">
+                        <div class="searchWrap">
+                            <p class="category"><a href="#none" class="fold"><i class="xi-bars"></i></a></p>
+                            <h1 module="Layout_LogoTop"><a href="/">{$mobile_title}</a></h1>
+                            
+                            <div class="headerUserIcon">
+                                <p class="search"><button type="button"><i class="xi-search"></i></button></p> 
+                                
+                                <div module="Layout_stateLogon">
+                                    <a href="/myshop/index.html">
+                                        <i class="xi-user-o"></i>
+                                    </a>
+                                </div>
+                                
+                                <div module="Layout_statelogoff">
+                                    <a href="/myshop/index.html">
+                                        <i class="xi-user-plus"></i>
+                                    </a>
+                                </div>
+
+                                <p module="Layout_orderBasketcount">
+                                    <a href="/order/basket.html" class="btnBasket"><i class="xi-basket"></i><span class="count {$basket_count_display|display} {$basket_count_display_class}"><!-- <span class="{$basket_count_class}">{$basket_count}</span></span> --></a>
+                                </p> 
+                            </div>
+                        </div>
+                    </section>
+                    <!--@import(/layout/basic/search.html)-->
+                </div>
+            </header>
